@@ -61,7 +61,7 @@ function scriptsource() {
         anykey
         break;;
       "$GITHUB" )
-        open https://github.com/Cottser/explode/blob/master/scripts/Duplicate%20current%20tab%20as%20incognito%20window.applescript
+        open "https://github.com/Cottser/explode/blob/master/${INCOGNITOSCRIPT}"
         break;;
       "$SCRIPTEDITOR" )
         open "$INCOGNITOSCRIPT" -a "AppleScript Editor"
