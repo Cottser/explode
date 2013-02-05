@@ -100,7 +100,7 @@ echo
 echo "Before you create a new alias or function, \`which\` it"
 echo "to make sure you're not clobbering something important."
 echo
-echo "which g"
+echo "which myshortcut"
 
 # And scene.
 anykey
