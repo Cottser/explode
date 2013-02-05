@@ -1,6 +1,8 @@
 # Explode Code: Scripting your way to a smoother workflow
 
 ## Installation and running the script
+Tested on OS X 10.6.8 and up.
+
     git clone https://github.com/Cottser/explode.git
     ./explode/code.sh
 
