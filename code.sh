@@ -78,7 +78,6 @@ clear
 echo
 echo "When writing scripts, search engines and copy and paste are"
 echo "your friends. Don't be afraid to be a copy and paste ${BOLD}artist${DEFAULT}."
-echo
 
 # Save your fingers.
 anykey
