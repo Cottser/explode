@@ -10,8 +10,13 @@ function anykey() {
 function applescript() {
   open -a "Google Chrome"
   # The script is usually triggered when Chrome is already frontmost. Adding
-  # a slight delay helps smooth things out here.
-  sleep 0.5
+  # a slight delay helps smooth things out here. This is a basic example of
+  # accepting an argument. If we only use one set of square brackets, the
+  # redirection operator `>` creates or overwrites a text file with the name
+  # `0`. See http://www.tldp.org/LDP/abs/html/io-redirection.html
+  if [[ $@ > 0 ]]; then
+    sleep $@
+  fi
   osascript "$INCOGNITOSCRIPT"
 }
 

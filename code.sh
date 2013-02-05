@@ -61,7 +61,7 @@ select choice in "Yes" "No"; do
   case $choice in
     Yes )
       SCRIPTDEMO=1
-      applescript;
+      applescript 0.5;
       break;;
     No )
       SCRIPTDEMO=0
