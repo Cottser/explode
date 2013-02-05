@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Relative path to demo AppleScript.
-INCOGNITOSCRIPT="scripts/Duplicate Current Tab as Incognito Window.applescript"
+INCOGNITOSCRIPT="scripts/Duplicate current tab as incognito window.applescript"
 
 # Set columns for `select` command to a high number so that each option is on
 # its own line.
