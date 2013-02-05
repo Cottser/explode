@@ -4,7 +4,11 @@
 Tested on OS X 10.6.8 and up.
 
     git clone https://github.com/Cottser/explode.git
-    ./explode/code.sh
+
+    explode/code.sh
+    # or
+    cd explode
+    ./code.sh
 
 Once the script is running, answer the on-screen questions to proceed, or press any key to advance to the next "slide".
 
